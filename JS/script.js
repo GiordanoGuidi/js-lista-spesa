@@ -8,7 +8,7 @@ let listItems = '<ul>';
 let i = 0;
 // CREO CICLO WHILE
 while(i < shoppingList.length){
-    listItems += `<li>${shoppingList[i]}</li>`;
+    listItems += `<li class= 'd-inline'>${shoppingList[i]}<img src='img/${i}.jpeg'/></li>`;
     i++;
 }
 listItems+='</ul>';
