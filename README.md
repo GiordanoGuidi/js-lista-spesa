@@ -9,3 +9,10 @@ Ricordiamoci di inizializzare la variabile di contatore prima dell'inizio del ci
 Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all'interno ciclo while
 Se abbiamo difficoltà con lo stampare in pagina, proviamo prima a stampare col ciclo for e solo dopo convertiamo il for in while
 Buon lavoro a tutte e a tutti!!
+
+---
+
+1. CREO UNA LISTA DELLA SPESA
+2. CREO L'ELEMENTO HTML
+3. CREO CICLO WHILE
+4. STAMPO IN PAGINA
