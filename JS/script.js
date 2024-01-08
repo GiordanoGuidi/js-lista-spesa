@@ -1,11 +1,10 @@
+//# RISOLUZIONE CON CICLO WHILE E TEMPLATE LITERAL
 //CREO LISTA DELLA SPESA
 const shoppingList = ['yougurt greco','albume','cereali','pasta','latte','passata']
-console.log('array lista',shoppingList);
 // RECUPERO L'ELEMENTO DALL'HTML
 const listElement = document.getElementById('list-element')
-//CREO ELEMENTO HTML
+// CREO ELEMENTO HTML
 let listItems = '<ul>';
-console.log('elemento',listItems);
 let i = 0;
 // CREO CICLO WHILE
 while(i < shoppingList.length){
@@ -13,8 +12,24 @@ while(i < shoppingList.length){
     i++;
 }
 listItems+='</ul>';
-console.log(listItems)
-//STAMPO IN PAGINA
+// STAMPO IN PAGINA
 listElement.innerHTML = listItems;
 
-
+//# RISOLUZIONE CON CICLO FOR E MANIPOLAZIONE DEL DOM
+//CREO LISTA DELLA SPESA
+// const shoppingList = ['yougurt greco','albume','cereali','pasta','latte','passata']
+// RECUPERO L'ELEMENTO DALL'HTML
+// const listElement = document.getElementById('list-element')
+//CREO ELEMENTO HTML
+// let list = document.createElement('ul');
+// console.log('LISTA UL', list)
+//CICLO FOR
+// for(let i = 0; i < shoppingList.length;i++){
+//     let listItems = document.createElement('li');
+//     console.log('ELEMENTO LI', listItems)
+//     listItems.append(shoppingList[i]);
+    //AGGANCIO I LISTITEMS ALLA LISTA
+//     list.appendChild(listItems);
+    // console.log(list);
+// }
+// listElement.appendChild(list);
